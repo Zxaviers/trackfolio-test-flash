@@ -7,7 +7,7 @@ import AssetTable from '@/components/AssetTable';
 import AddAssetModal from '@/components/AddAssetModal';
 import { INITIAL_ASSETS } from '@/data/mockData';
 import { Asset, NewAssetInput } from '@/types';
-import { Plus, LayoutDashboard, ArrowRightLeft, Settings, ShieldAlert } from 'lucide-react';
+import { Plus, ArrowRightLeft, Settings } from 'lucide-react';
 
 export default function DashboardPage() {
   const [activeTab, setActiveTab] = useState('overview');

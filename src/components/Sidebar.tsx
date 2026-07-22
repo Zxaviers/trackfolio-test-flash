@@ -9,10 +9,7 @@ import {
   Settings,
   Menu,
   X,
-  ChevronLeft,
   Home,
-  ShieldCheck,
-  User,
 } from 'lucide-react';
 
 interface SidebarProps {

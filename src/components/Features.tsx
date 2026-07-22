@@ -1,4 +1,4 @@
-import { TrendingUp, PieChart, ShieldCheck, Zap, Lock, BarChart2 } from 'lucide-react';
+import { TrendingUp, PieChart, ShieldCheck } from 'lucide-react';
 
 export default function Features() {
   const features = [

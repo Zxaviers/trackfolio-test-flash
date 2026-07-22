@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { X, PlusCircle } from 'lucide-react';
-import { NewAssetInput } from '@/types';
+import { NewAssetInput, Asset } from '@/types';
 
 interface AddAssetModalProps {
   isOpen: boolean;
@@ -149,7 +149,7 @@ export default function AddAssetModal({
               </label>
               <select
                 value={category}
-                onChange={(e) => setCategory(e.target.value as any)}
+                onChange={(e) => setCategory(e.target.value as Asset['category'])}
                 className="w-full px-4 py-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 text-sm transition-all"
               >
                 <option value="Crypto">Crypto</option>

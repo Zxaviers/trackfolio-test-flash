@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { ArrowRight, Play, Sparkles, TrendingUp, Shield, BarChart3 } from 'lucide-react';
+import { ArrowRight, Play, Sparkles } from 'lucide-react';
 
 export default function Hero() {
   return (

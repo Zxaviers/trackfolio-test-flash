@@ -1,6 +1,6 @@
 import { Asset } from '@/types';
 import { formatCurrency, formatPercent } from '@/utils/format';
-import { Wallet, TrendingUp, Layers, ArrowUpRight, ArrowDownRight } from 'lucide-react';
+import { Wallet, Layers, ArrowUpRight, ArrowDownRight } from 'lucide-react';
 
 interface SummaryCardsProps {
   assets: Asset[];
